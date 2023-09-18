@@ -9,4 +9,4 @@ git config user.email ""
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/zagss/valet_driv.git main:main
+git push -f git@github.com:zagss/valet_driv.git main:main
