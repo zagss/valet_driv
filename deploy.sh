@@ -3,7 +3,6 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-git init
 git config user.name "zagss"
 git config user.email ""
 git add -A
