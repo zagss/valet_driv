@@ -43,3 +43,13 @@ verifyCode.RegisterVerifyCodeServer(srv, verifyCodeService)
 # 再次生成
 go generate ./...
 ```
+
+```go
+package main
+// 1. 全局设置随机数种子
+// rand.NewSource(time.Now().UnixNano())
+
+// 2. 一次随机会获取 63 位随机数, 浪费
+
+// 3. 借用位运算优化，重复利用一次随机数
+```
